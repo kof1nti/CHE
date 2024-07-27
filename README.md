@@ -10,6 +10,6 @@ The script picks a downloaded lidar tile and extracts it to a folder. Creates a 
 
 The polygon is then converted to spatial vector to compute the zonal statistics within the range of the polygon data. Height at ground level(dtm), height at canopy level, and the differences between both heights
 
-## Quality Checks 
+## Quality Check
 
 After clipping the polygon to the extent of the area, recheck the validity of resulting polygon geometries to ensure that all other collected geometries like points are removed.
